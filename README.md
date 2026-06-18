@@ -90,14 +90,26 @@ Análise da concentração de produtos em diferentes faixas de preço.
 
 ---
 
-# 💡 Insights Obtidos
+## 💡 Insights Obtidos
 
-- O faturamento da plataforma apresentou crescimento ao longo do período analisado.
-- Algumas categorias concentram grande parte da receita total do e-commerce.
-- Estados com maior volume de pedidos não necessariamente possuem maior ticket médio.
-- A maior parte dos produtos está concentrada em faixas de preço mais acessíveis.
-- O comportamento das vendas apresenta oscilações ao longo do tempo, indicando possíveis sazonalidades.
+### 🛒 Volume e Faturamento
+- O dataset contém **99.441 pedidos** e **112.650 itens** vendidos no período de set/2016 a ago/2018
+- O faturamento total da plataforma foi de **R$ 13.591.643,70**
+- O ticket médio geral por item é de **R$ 120,65**
 
+### 📦 Categorias
+- **cama_mesa_banho** é a categoria com maior volume de vendas (11.115 itens), mas não é a que mais fatura
+- **beleza_saude** lidera em faturamento (R$ 1.258.681), com ticket médio mais alto que a líder em volume
+- **relogios_presentes** aparece em 2º lugar em faturamento (R$ 1.205.005) mesmo sendo apenas a 7ª em volume — indicando produtos de maior valor unitário
+
+### 🗺️ Distribuição Regional
+- **SP concentra 47.449 pedidos** (cerca de 48% do total), seguido por RJ (14.579) e MG (13.129)
+- Os estados com maior ticket médio são justamente os menos populosos no volume: **PB (R$ 191,48), AL (R$ 180,89) e AC (R$ 173,73)** — consumidores do Norte e Nordeste compram menos, mas gastam mais por compra
+
+### 📈 Evolução Temporal
+- O faturamento cresceu de forma consistente ao longo de 2017, saindo de R$ 120k em jan/2017 para mais de R$ 1 milhão em nov/2017
+- **Novembro de 2017 foi o mês de maior faturamento (R$ 1.010.271)**, provavelmente impulsionado pela Black Friday
+- Após o pico de novembro, o faturamento se estabilizou acima de R$ 800k mensais em 2018
 ---
 
 # 🗂️ Estrutura do Projeto
