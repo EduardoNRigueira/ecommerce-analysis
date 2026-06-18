@@ -76,6 +76,18 @@ Análise da concentração de produtos em diferentes faixas de preço.
 
 ![Histograma](images/histograma_precos.png)
 
+## Categorias com alto faturamento mas avaliação baixa
+
+![Notas das Categorias](images/categorias_nota.png)
+
+## Pedidos por dia da semana e hora do dia
+
+![Tempo dos pedidos](images/pedidos_tempo.png)
+
+## Frete vs distância (quem paga mais?)
+
+![Frete por estado](images/frete_estado.png)
+
 ---
 
 # 💡 Insights Obtidos
@@ -98,6 +110,8 @@ ecommerce-analysis/
 │   ├── olist_order_items_dataset.csv
 │   ├── olist_orders_dataset.csv
 │   ├── olist_products_dataset.csv
+│   ├── olist_order_reviews_dataset.csv
+│   ├── olist_geolocation_dataset.csv
 │   └── ecommerce.db
 │
 ├── images/
